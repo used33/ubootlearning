@@ -1,0 +1,69 @@
+.\" Copyright (C) 2009 Sony Computer Entertainment Inc.
+.\" Copyright 2009 Sony Corp.
+.\"
+.\" This program is free software; you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; version 2 of the License.
+.\"
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; if not, write to the Free Software
+.\" Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+.\"
+.Dd ""
+.Dt pb-discover 8
+.Os
+.\"
+.Sh NAME
+.\" ====
+.Nm pb-discover
+.Nd The dynamic device discovery daemon of the Petitboot bootloader
+.\"
+.Sh SYNOPSIS
+.\" ========
+.Nm
+.Op Fl a, -no-autoboot
+.Op Fl h, -help
+.Op Fl l, -log Ar log-file
+.Op Fl n, -dry-run
+.Op Fl V, -version
+.\"
+.Sh DESCRIPTION
+.\" ===========
+pb-discover maintains a dynamic list of boot options available to
+the system.  On startup, the petitboot user interface clients connect to
+pb-discover daemon and receive boot option information.
+.\"
+.Sh OPTIONS
+.\" =======
+.Bl -tag -width indent
+.\"
+.It Fl a, -no-autoboot
+Disable the autoboot feature.
+.\"
+.It Fl h, -help
+Print a help message.
+.\"
+.It Fl l, -log Ar log-file
+Log messages to the file
+.Ar log-file .
+The default log is a file /var/log/petitboot/pb-discover.log.  New messages are
+appended to an existing log file.
+.\"
+.It Fl d, -dry-run
+Do not execute any commands.  For testing.
+.\"
+.It Fl V, -version
+Display the program version number.
+.El
+.Sh SEE ALSO
+.\" ========
+.Xr petitboot 8 , Xr petitboot-nc 8 , Xr petitboot-twin 8 , Xr pb-event 8
+.\"
+.Sh REPORTING BUGS
+.\" ==============
+Send bug reports to Geoff Levand <geoff @ infradead.org>

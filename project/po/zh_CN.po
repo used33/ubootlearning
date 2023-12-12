@@ -1,0 +1,986 @@
+# English translations for petitboot package.
+# This file is put in the public domain.
+# Jeremy Kerr <jk@ozlabs.org>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: petitboot 20140623-g89bd2ed2-dirty\n"
+"Report-Msgid-Bugs-To: https://lists.ozlabs.org/listinfo/petitboot\n"
+"POT-Creation-Date: 2023-10-20 08:18+0000\n"
+"PO-Revision-Date: 2014-06-24 13:56+0800\n"
+"Last-Translator: Jeremy Kerr <jk@ozlabs.org>\n"
+"Language-Team: Simplified Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, fuzzy
+msgid "decryption failed"
+msgstr "解密失败"
+
+#, fuzzy
+msgid "signature verification failed"
+msgstr "签名验证失败"
+
+#, fuzzy
+msgid "invalid signature configuration"
+msgstr "无效的签名配置"
+
+#, fuzzy
+msgid "unknown verification failure"
+msgstr "签名验证失败"
+
+#, fuzzy, c-format
+msgid "Boot verification failure: %s"
+msgstr "签名验证失败"
+
+#, fuzzy, c-format
+msgid "kexec load failed: %s"
+msgstr "kexec load failed"
+
+msgid "Running boot hooks"
+msgstr "正在运行引导挂钩"
+
+#, c-format
+msgid "Loaded %s from %s"
+msgstr "已从 %s 装入 %s"
+
+#, c-format
+msgid "Couldn't load %s from %s"
+msgstr "无法从 %s 装入 %s"
+
+msgid "Performing kexec load"
+msgstr "正在执行 kexec 装入"
+
+msgid "Performing kexec reboot"
+msgstr "正在执行 kexec 重新引导"
+
+msgid "kexec reboot failed"
+msgstr "kexec 重新引导失败"
+
+#, c-format
+msgid "Error loading %s"
+msgstr "装入 %s 时出错"
+
+msgid "(unknown)"
+msgstr "（未知）"
+
+#, c-format
+msgid "Booting %s"
+msgstr "引导 %s"
+
+msgid "Boot failed: no image specified"
+msgstr "引导失败：未指定映像"
+
+msgid "Boot failed: no command line signature file specified"
+msgstr "引导失败：未指定命令行签名文件"
+
+msgid "kernel image"
+msgstr "内核映像"
+
+msgid "initrd"
+msgstr "initrd"
+
+msgid "dtb"
+msgstr "dtb"
+
+msgid "kernel image signature"
+msgstr "内核映像签名"
+
+msgid "initrd signature"
+msgstr "initrd 签名"
+
+msgid "dtb signature"
+msgstr "dtb 签名"
+
+msgid "kernel command line signature"
+msgstr "内核命令行签名"
+
+msgid "Boot cancelled"
+msgstr "已取消引导"
+
+#, c-format
+msgid "%u downloads in progress..."
+msgstr "%u 正在下载..."
+
+#, c-format
+msgid "%u %s downloading: %.0f%% - %<PRIu64>%cB"
+msgstr "%u %s 正在下载：%.0f%% - %<PRIu64>%cB"
+
+msgid "item"
+msgid_plural "items"
+msgstr[0] "项"
+
+#, c-format
+msgid "Booting in %d sec: [%s] %s"
+msgstr "将在 %d 秒内引导：[%s] %s"
+
+msgid "device type"
+msgstr ""
+
+msgid "device UUID"
+msgstr ""
+
+msgid "unknown specifier"
+msgstr ""
+
+#, c-format
+msgid "Applying temporary autoboot override: %s"
+msgstr ""
+
+#, c-format
+msgid "Failed to open encrypted device %s"
+msgstr ""
+
+#, c-format
+msgid "Encrypted device %s does not exist"
+msgstr ""
+
+#. TRANSLATORS: this string will be passed the type of the
+#. device (eg "disk" or "network"), which will be translated
+#. accordingly.
+#.
+#, c-format
+msgid "Processing new %s device"
+msgstr "正在处理新的 %s 设备"
+
+#, c-format
+msgid "Processing DHCP lease response (ip: %s)"
+msgstr "正在处理 DHCP 租赁响应（IP：%s）"
+
+msgid "Default boot cancelled"
+msgstr "已取消缺省引导"
+
+msgid "Invalid config URL!"
+msgstr "配置 URL 无效！"
+
+#, c-format
+msgid "Unable to route to host %s"
+msgstr "无法路由至主机 %s"
+
+msgid "Failed to load URL!"
+msgstr "未能装入 URL！"
+
+#, c-format
+msgid "Parsed GRUB configuration from %s"
+msgstr "已从 %s 解析的 GRUB 配置"
+
+#, c-format
+msgid "Parsed kboot configuration from %s"
+msgstr "已从 %s 解析的 kboot 配置"
+
+msgid "Configuring with DHCP"
+msgstr "使用 DHCP 进行配置"
+
+#, c-format
+msgid "Configuring with static address (ip: %s)"
+msgstr "正在使用静态地址 (ip: %s) 配置"
+
+#, c-format
+msgid "Download complete: %s"
+msgstr "下载完成：%s"
+
+#, c-format
+msgid "Failed to download %s"
+msgstr "未能下载 %s"
+
+msgid "PXE autoconfiguration failed"
+msgstr "PXE 自动配置失败"
+
+#, c-format
+msgid "Parsed PXE config from %s"
+msgstr "已从 %s 解析的 PXE 配置"
+
+#, c-format
+msgid "Requesting config %s"
+msgstr "正在请求配置 %s"
+
+#, c-format
+msgid "Probing from base %s"
+msgstr "正在库 %s 中浏览"
+
+#, c-format
+msgid "Parsed yaboot configuration from %s"
+msgstr "已从 %s 解析的 yaboot 配置"
+
+msgid "None"
+msgstr "无"
+
+msgid "Network"
+msgstr "网络"
+
+msgid "Disk"
+msgstr "磁盘"
+
+msgid "Safe Mode"
+msgstr "安全模式"
+
+msgid "Optical"
+msgstr "光学"
+
+msgid "Setup Mode"
+msgstr "安装模式"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "USB"
+msgstr "USB"
+
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+msgid "Any"
+msgstr "任何"
+
+#, fuzzy
+msgid "Encrypted Device"
+msgstr "任何设备："
+
+msgid "Retrieve Config"
+msgstr "检索配置"
+
+msgid "Configuration URL:"
+msgstr "配置 URL："
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Help"
+msgstr "帮助"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Petitboot Config Retrieval"
+msgstr "Petitboot 配置检索"
+
+msgid "tab=next, shift+tab=previous, x=exit, h=help"
+msgstr "tab=下一个，shift+tab=上一个，x=退出，h=帮助"
+
+msgid "Boot Option Editor"
+msgstr "引导选项编辑器"
+
+msgid "Specify paths/URLs manually"
+msgstr "手动指定路径/URL"
+
+msgid "Device:"
+msgstr "设备："
+
+msgid "Kernel:"
+msgstr "内核："
+
+msgid "Initrd:"
+msgstr "Initrd："
+
+msgid "Device tree:"
+msgstr "设备树："
+
+msgid "Boot arguments:"
+msgstr "引导参数："
+
+msgid "Argument signature file:"
+msgstr "自变量签名文件："
+
+msgid "Petitboot Option Editor"
+msgstr "Petitboot 选项编辑器"
+
+msgid "System Configuration"
+msgstr "系统配置"
+
+msgid "No IP / mask values are set"
+msgstr "未设置任何 IP/掩码值"
+
+msgid "Select a boot device to add"
+msgstr "选择要添加的引导设备"
+
+msgid "Waiting for configuration data..."
+msgstr "正在等待配置数据..."
+
+msgid "Autoboot:"
+msgstr "自动引导："
+
+msgid "Disabled"
+msgstr "已禁用"
+
+msgid "Enabled"
+msgstr "已启用"
+
+msgid "Add Device"
+msgstr "添加设备："
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Clear & Boot Any"
+msgstr "清除并引导任何项"
+
+msgid "Boot Order:"
+msgstr "引导顺序"
+
+msgid "(None)"
+msgstr "（无）"
+
+#, c-format
+msgid "disk: %s [uuid: %s]"
+msgstr "磁盘：%s [uuid：%s]"
+
+#, c-format
+msgid "net:  %s [mac: %s]"
+msgstr "网路：%s [mac：%s]"
+
+msgid "Any Device"
+msgstr "任何设备："
+
+#, c-format
+msgid "Any %s device"
+msgstr "任何“%s”设备"
+
+msgid "Timeout:"
+msgstr "超时："
+
+msgid "seconds"
+msgstr "秒"
+
+#, c-format
+msgid "%s IPMI boot option: %s"
+msgstr "%s IPMI 引导选项：%s"
+
+msgid "Persistent"
+msgstr ""
+
+msgid "Temporary"
+msgstr ""
+
+msgid "Clear option:"
+msgstr "清除选项："
+
+msgid "Clear IPMI override now"
+msgstr "立即清除 IPMI 覆盖"
+
+msgid "IPMI boot order mailbox config present"
+msgstr ""
+
+#, fuzzy
+msgid "Clear IPMI boot order mailbox now"
+msgstr "立即清除 IPMI 覆盖"
+
+msgid "Network:"
+msgstr "网络："
+
+msgid "DHCP on all active interfaces"
+msgstr "所有活动接口上的 DHCP"
+
+msgid "DHCP on a specific interface"
+msgstr "特定接口上的 DHCP"
+
+msgid "Static IP configuration"
+msgstr "静态 IP 配置"
+
+msgid "link up"
+msgstr "上行链路"
+
+msgid "link down"
+msgstr "下行链路"
+
+msgid "Network Override Active! 'OK' will overwrite interface config"
+msgstr "网络覆盖活动！“确定”将覆盖接口配置"
+
+msgid "IP/mask:"
+msgstr "IP/掩码："
+
+msgid "(eg. 192.168.0.10 / 24)"
+msgstr "（示例：192.168.0.10 / 24）"
+
+msgid "Gateway:"
+msgstr "网关："
+
+msgid "(eg. 192.168.0.1)"
+msgstr "（示例：192.168.0.1）"
+
+msgid "URL:"
+msgstr "URL:"
+
+msgid "(eg. tftp://)"
+msgstr "（示例：tftp://）"
+
+msgid "DNS Server(s):"
+msgstr "DNS 服务器："
+
+msgid "(eg. 192.168.0.2)"
+msgstr "（示例：192.168.0.2）"
+
+msgid "(if not provided by DHCP server)"
+msgstr "（如果不是由 DHCP 服务器提供）"
+
+msgid "HTTP Proxy:"
+msgstr "HTTP 代理："
+
+msgid "HTTPS Proxy:"
+msgstr "HTTPS 代理："
+
+msgid "Selecting 'OK' will exit safe mode"
+msgstr "选择“确定”将退出安全模式"
+
+msgid "Disk R/W:"
+msgstr "读/写磁盘"
+
+msgid "Prevent all writes to disk"
+msgstr "阻止对磁盘的所有写入操作"
+
+msgid "Allow bootloader scripts to modify disks"
+msgstr "允许引导程序脚本修改磁盘"
+
+msgid "Boot console:"
+msgstr "引导控制台："
+
+#, c-format
+msgid "Manually set: '%s'"
+msgstr "手动设置：“%s”"
+
+#, c-format
+msgid "Current interface: %s"
+msgstr "当前接口：%s"
+
+msgid "Update system password"
+msgstr ""
+
+#, fuzzy
+msgid "Pre-boot check:"
+msgstr "Petitboot 帮助"
+
+msgid "Petitboot System Configuration"
+msgstr "Petitboot 系统配置"
+
+msgid "Returned from shell"
+msgstr ""
+
+#, c-format
+msgid "Running %s..."
+msgstr "正在运行 %s..."
+
+#, c-format
+msgid "Failed: %s"
+msgstr "失败：%s"
+
+#, c-format
+msgid "Booting %s..."
+msgstr "正在引导 %s..."
+
+#, c-format
+msgid "Failed: boot %s"
+msgstr "失败：引导 %s"
+
+#, c-format
+msgid "User item %u"
+msgstr "用户项 %u"
+
+msgid "Failed to send install request"
+msgstr "未能发送安装请求"
+
+#, c-format
+msgid "Installing plugin %s"
+msgstr "正在安装插件 %s"
+
+#, c-format
+msgid "Plugins (%u)"
+msgstr "插件 (%u)"
+
+#, c-format
+msgid "  %s [installed]"
+msgstr ""
+
+msgid "Plugins (0)"
+msgstr "插件 (0)"
+
+#, c-format
+msgid "SAFE MODE: select '%s' to continue"
+msgstr "安全模式：选择“%s”以继续"
+
+msgid "Rescan devices"
+msgstr "重新扫描设备"
+
+msgid "Enter=accept, e=edit, n=new, x=exit, l=language, g=log, h=help"
+msgstr "Enter=接受，e=编辑，n=新建，x=退出，l=语言，h=帮助"
+
+msgid "Welcome to Petitboot"
+msgstr "欢迎使用 Petitboot"
+
+msgid "System information"
+msgstr "系统信息"
+
+msgid "System configuration"
+msgstr "系统配置"
+
+msgid "System status log"
+msgstr "系统状态日志"
+
+msgid "Retrieve config from URL"
+msgstr "从 URL 中检索配置"
+
+msgid "Reboot"
+msgstr "重新引导"
+
+msgid "Exit to shell"
+msgstr "退出到 shell"
+
+msgid "main menu"
+msgstr "主菜单"
+
+msgid "Petitboot Plugins"
+msgstr "Petitboot 插件"
+
+msgid "Enter=install, e=details, x=exit, h=help"
+msgstr "Enter=安装，e=详细信息，x=退出，h=帮助"
+
+msgid "Available Petitboot Plugins"
+msgstr "可用的 Petitboot 插件"
+
+msgid "Return to Main Menu"
+msgstr ""
+
+msgid "plugin menu"
+msgstr "插件菜单"
+
+#, c-format
+msgid "%s: alloc cui failed.\n"
+msgstr "%s：alloc cui 失败。\n"
+
+#, c-format
+msgid "%s: error: discover_client_init failed.\n"
+msgstr "%s：错误：discover_client_init 失败。\n"
+
+#, c-format
+msgid "could not start pb-discover, the petitboot daemon.\n"
+msgstr "无法启动 pb-discover（它是 petitboot 守护程序）。\n"
+
+#, c-format
+msgid "check that pb-discover, the petitboot daemon is running.\n"
+msgstr "检查 pb-discover（它是 petitboot 守护程序）是否正在运行。\n"
+
+msgid "Petitboot help"
+msgstr "Petitboot 帮助"
+
+#, c-format
+msgid "Petitboot help: %s"
+msgstr "Petitboot 帮助：%s"
+
+msgid "Language"
+msgstr "语言"
+
+#, c-format
+msgid "Unknown language '%s'"
+msgstr "未知语言“%s”"
+
+msgid "Save changes?"
+msgstr ""
+
+msgid "Petitboot Language Selection"
+msgstr "选择 Petitboot 语言"
+
+msgid "tab=next, shift+tab=previous, x=exit"
+msgstr "tab=下一个，shift+tab=上一个，x=退出"
+
+#, c-format
+msgid "!Invalid option %d"
+msgstr "!无效选项 %d"
+
+msgid "Unknown Device"
+msgstr "未知设备"
+
+msgid "Waiting for system information..."
+msgstr "正在等待系统信息..."
+
+msgid "System type:"
+msgstr "系统类型："
+
+msgid "System id:"
+msgstr "系统标识："
+
+msgid "Primary platform versions:"
+msgstr "主片段平台版本："
+
+msgid "Alternate platform versions:"
+msgstr "备用平台版本："
+
+msgid "Secure & trusted boot"
+msgstr ""
+
+msgid "FW verification"
+msgstr ""
+
+#, fuzzy
+msgid "enabled"
+msgstr "已启用"
+
+#, fuzzy
+msgid "disabled"
+msgstr "已禁用"
+
+msgid "FW measurement"
+msgstr ""
+
+#, fuzzy
+msgid "OS verification"
+msgstr "签名验证失败"
+
+msgid "enforcing"
+msgstr ""
+
+msgid "BMC current side:"
+msgstr "BMC 当前侧："
+
+msgid "BMC golden side:"
+msgstr "BMC 备用侧："
+
+msgid "Storage devices"
+msgstr "存储设备"
+
+#, c-format
+msgid " UUID:       %s"
+msgstr "  UUID：       %s"
+
+#, c-format
+msgid " mounted at: %s"
+msgstr "  安装于：%s"
+
+msgid "Management (BMC) interface"
+msgstr "管理 (BMC) 接口"
+
+#, c-format
+msgid " MAC:  %s"
+msgstr "  MAC：  %s"
+
+msgid "Network interfaces"
+msgstr "网络接口"
+
+#, c-format
+msgid " MAC:        %s"
+msgstr "  MAC：  %s"
+
+#, c-format
+msgid " IP Address: %s"
+msgstr " IP 地址：%s"
+
+msgid "none"
+msgstr "无"
+
+#, c-format
+msgid " IPv6 Address: %s"
+msgstr " IPv6 地址：%s"
+
+#. TRANSLATORS: these "up" / "down" strings refer to the
+#. * link status for a network connection.
+#, c-format
+msgid " link:       %s"
+msgstr " 链接： %s"
+
+msgid "up"
+msgstr "上行链路"
+
+msgid "down"
+msgstr "下行链路"
+
+msgid "Petitboot System Information"
+msgstr "Petitboot 系统信息"
+
+msgid "System Information"
+msgstr "系统信息"
+
+msgid "x=exit, h=help"
+msgstr "x=退出，h=帮助"
+
+msgid "x=exit"
+msgstr "x=退出"
+
+msgid ""
+"From the main menu screen, select a boot option. The options displayed are "
+"available on the system and the network.\n"
+"\n"
+"To select a boot option, press Enter.\n"
+"\n"
+"To make changes to an existing option, type E (edit).\n"
+"\n"
+"To add a new boot option, type N (new).\n"
+"\n"
+"To display information about the system, including the MAC addresses of each "
+"network interface, type I (information).\n"
+"\n"
+"To make changes to the system configuration, type C (configure).\n"
+"\n"
+"To set the language for the petitboot interface, type L (language).\n"
+"\n"
+"To view the log of status messages from the discovery process, type G "
+"(log).\n"
+"\n"
+"To find new or updated boot options on the system, select the 'Rescan "
+"devices' option.\n"
+"\n"
+"To retreive new boot options from a remote configuration file, select the "
+"'Retrieve config from URL' option.\n"
+"\n"
+"To restrict petitboot to only autobooting from a specific device type, the "
+"following keys are available:\n"
+"\n"
+"  F10: Only autoboot from disk\n"
+"  F11: Only autoboot from USB devices\n"
+"  F12: Only autoboot from network\n"
+"\n"
+"Unlike other keys, these do not cancel automatic boot.\n"
+"\n"
+"To close the Petitboot interface, type X (exit).\n"
+msgstr ""
+"从主菜单屏幕中，选择引导选项。显示的选项在系统和网络上可用。\n"
+"\n"
+"要选择引导选项，请按 Enter。\n"
+"\n"
+"要更改现有选项，请输入 E（编辑）。\n"
+"\n"
+"要添加新的引导选项，请输入 N（新建）。\n"
+"\n"
+"要显示关于系统的信息，包括每个网路接口的 MAC 地址，请输入 I（信息）。\n"
+"\n"
+"要更改系统配置，请输入 C（配置）。\n"
+"\n"
+"要设置 Petitboot 界面的语言，请输入 L（语言）。\n"
+"\n"
+"要查看发现过程的状态消息的日志，请输入 G (log).\n"
+"\n"
+"要在系统上查找新的或更新的引导选项，请选择“重新扫描设备”选项。\n"
+"\n"
+"要从远程配置文件检索新的引导选项，请选择“从 URL 检索配置”选项。\n"
+"\n"
+"要关闭 Petitboot 界面，请输入 X（退出）。\n"
+
+msgid ""
+"Supply a valid URL here to retrieve a remote pxe-boot config file and parse "
+"it.\n"
+"\n"
+"URLs are of the form 'scheme://host/path/to/pxeconffile', such as tftp://"
+"host/pxeconffile or http://host/pxeconffile"
+msgstr ""
+"请在此处提供有效的 URL，以检索远程 PXE 启动文件和解析此文件。\n"
+"\n"
+"URL 的格式如下：“scheme://host/path/to/pxeconffile”，例如 tftp://host/"
+"pxeconffile 或 http://host/pxeconffile"
+
+msgid ""
+"This screen allows you to edit or create boot options.\n"
+"\n"
+"Device: This is a list of block devices available on the system. Select the "
+"device which contains your boot resources (kernel, initrd and device tree), "
+"or \"Specify paths/URLs manually\" to use full URLs to the boot resources.\n"
+"\n"
+"Kernel: enter the path to the kernel to boot. This field is mandatory. This "
+"should be a kernel image that the kexec utility can handle. Generally, this "
+"will be a 'vmlinux'-type image.\n"
+"Example: /boot/vmlinux\n"
+"\n"
+"Initrd: enter the path to the initial RAM disk image. This is optional.\n"
+"Example: /boot/initrd.img\n"
+"\n"
+"Device tree: enter the path to the device tree blob file (.dtb). This is "
+"optional; if not specified, and your platform currently provides a device "
+"tree, the current one will be used.\n"
+"Example: /boot/device-tree.dtb\n"
+"\n"
+"Boot arguments: enter the kernel command-line arguments. This is optional.\n"
+"Example: root=/dev/sda1 console=hvc0\n"
+"\n"
+msgstr ""
+"此屏幕允许您编辑或创建引导选项。\n"
+"\n"
+"设备：这是系统上可用的块设备列表。选择包含您的引导资源（内核、initrd 和设备"
+"树）的设备，或选择“手动指定路径/URL”以使用完整 URL 来引导资源。\n"
+"\n"
+"内核：输入要引导的内核的路径。此字段为必填字段。这应该是 kexec 实用程序可以处"
+"理的内核映像。一般而言，这将是“vmlinux”类型映像。\n"
+"示例：/boot/vmlinux\n"
+"\n"
+"Initrd：输入初始 RAM 磁盘映像的路径。此项为可选项。\n"
+"示例：/boot/initrd.img\n"
+"\n"
+"设备树：输入设备树 blob 文件 (.dtb) 的路径。此项为可选项；如果未指定，并且您"
+"的平台当前提供设备树，那么会使用当前的设备。\n"
+"示例：/boot/device-tree.dtb\n"
+"\n"
+"引导参数：输入内核命令行参数。此项为可选项。\n"
+"示例：root=/dev/sda1 console=hvc0\n"
+"\n"
+
+#, fuzzy
+msgid ""
+"Autoboot: Specify which devices to autoboot from.\n"
+"\n"
+"By selecting the 'Add Device' button new devices can be added to the "
+"autoboot list, either by UUID, MAC address, or device type. Once added to "
+"the boot order, the priority of devices can be changed with the '-' (minus) "
+"and '+' (plus) keys. Devices can be individually removed from the boot order "
+"with the 'delete' or 'backspace' keys. Use this option if you have multiple "
+"operating system images installed.\n"
+"\n"
+"To autoboot from any device, select the 'Clear & Boot Any' button. In this "
+"case, any boot option that is marked as a default (by bootloader "
+"configuration) will be booted automatically after a timeout. Use this option "
+"if you want to quickly boot your system without changing any boot option "
+"settings. This is the typical configuration.\n"
+"\n"
+"To disable autoboot, select the 'Clear' button, which will clear the boot "
+"order. With autoboot disabled, user interaction will be required to continue "
+"past the petitboot menu. Use this option if you want the machine to wait for "
+"an explicit boot selection, or want to interact with petitboot before "
+"booting the system\n"
+"\n"
+"Timeout: Specify the length of time, in seconds, that the main menu will be "
+"displayed before the default boot option is started. This option is only "
+"displayed if autoboot is enabled.\n"
+"\n"
+"Network options:\n"
+"\n"
+"DHCP on all active interfaces: Automatically assigns IP addresses to each "
+"network interface. Use this option if you have a DHCP server on your "
+"network.\n"
+"\n"
+"DHCP on a specific interface: Automatically assigns IP addresses to the "
+"selected network interface. The other interfaces are not configured. Select "
+"this option if you have multiple DHCP servers on different interfaces, but "
+"only want to configure a single interface during boot.\n"
+"\n"
+"Static IP configuration: Allows you to specify an IPv4 address and network "
+"mask, gateway, and a DNS server or servers for a network interface. Select "
+"this option if you do not have a DHCP server, or want explicit control of "
+"network settings.\n"
+"\n"
+"HTTP(S) Proxy: Allows you to specify an optional HTTP or HTTPS proxy server "
+"if required, for example: \"http://proxy:3128\". Any HTTP(S) requests made "
+"by the pb-discover server will use these details.\n"
+"\n"
+"Disk R/W: Certain bootloader configurations may request write access to "
+"disks to save information or update parameters (eg. GRUB2). Use this option "
+"to control access to disks.\n"
+"\n"
+"Pre-boot check: Petitboot is able to check a payload for compatibility "
+"before booting it. If this check fails, petitboot will determine that the "
+"payload will not properly boot on this platform, and abort the boot. This "
+"configuration option allows skipping this check.\n"
+msgstr ""
+"自动引导：指定要从其中自动引导的设备。\n"
+"\n"
+"通过选择“添加设备”按钮，可依据 UUID、MAC 地址或设备类型将新设备添加到自动引导"
+"列表。添加到引导顺序之后，设备的优先级可以使用“-”（减号）和“+”（加号）键进行"
+"更改。可以使用“delete”或“backspace”键按照引导顺序逐个移除设备。如果已安装多个"
+"操作系统映像，请使用此选项。\n"
+"\n"
+"要从任何设备自动引导，请选择“清除/引导任何”按钮。在本示例中，所有标记为缺省的"
+"引导选项（由 bootloader 配置）将在超时后自动引导。任何引导选项设置的情况下快"
+"速引导系统，请使用此选项。此为典型配置。\n"
+"\n"
+"要禁用自动引导，请选择“清除”，这将清除该引导。顺序。自动引导禁用之后，需要用"
+"户交互才能继续先前的 Petitboot 菜单。在下列情况下，请使用此选项：您希望机器等"
+"待显式选择引导，或要先与 Petitboot 交互，再引导系统\n"
+"\n"
+"超时：指定时间长度（以秒计），在缺省引导选项启动之前，主菜单将在此时间内显"
+"示。仅当已启用自动引导时，才会显示此选项。\n"
+"\n"
+"网络选项：\n"
+"\n"
+"所有活动接口上的 DHCP：自动将 IP 地址分配给每个网络接口。如果您的网络中存在 "
+"DHCP 服务器，请使用此选项。\n"
+"\n"
+"特定接口上的 DHCP：自动将 IP 地址分配给选择的网络接口。不配置其他接口。如果您"
+"在不同的接口上有多个 DHCP 服务器，但在引导期间只想配置单个接口，请选择此选"
+"项。\n"
+"\n"
+"静态 IP 配置：允许您指定网络接口的 IPv4 地址和网络掩码、网关及 DNS 服务器。如"
+"果您没有 DHCP 服务器，或者要显式控制网络设置，请选择此选项。\n"
+"\n"
+"HTTP(S) 代理：允许您指定可选的 HTTP 或 HTTPS 代理服务器（如果需要），例如："
+"\"http://proxy:3128\"。pb-discover 服务器的所有HTTP(S) 请求都将使用这些详细信"
+"息。\n"
+"\n"
+"读写磁盘：某些 Bootloader 配置可能要求对磁盘具有读入权限以保存信息或更新参数"
+"（如 GRUB2）。以控制磁盘的访问权限。\n"
+
+msgid "Petitboot Plugin"
+msgstr "Petitboot 插件"
+
+#, c-format
+msgid "Finished: %s"
+msgstr "已完成：%s"
+
+msgid "ID:"
+msgstr "标识："
+
+msgid "Name:"
+msgstr "名称："
+
+msgid "Vendor:"
+msgstr "供应商："
+
+msgid "Vendor ID:"
+msgstr "供应商标识："
+
+msgid "Version:"
+msgstr "版本："
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Commands:"
+msgstr "命令："
+
+msgid "Run selected command"
+msgstr "运行所选命令"
+
+msgid ""
+"This screen lists the details and available commands of an installed "
+"plugin.\n"
+"To run a plugin command choose it in the list and select the \"Run\" button. "
+"The Petitboot UI will temporarily exit to run the command, then return to "
+"this screen."
+msgstr ""
+"此屏幕列示已安装插件的详细信息和可用命令。\n"
+"要运行列表中选择的插件命令，请选择“运行”按钮。Petitboot UI 将临时退出以运行该"
+"命令，然后返回到此屏幕。"
+
+msgid ""
+"Plugins discovered by Petitboot are listed in this menu.\n"
+"Press Enter to install the selected plugin. Once installed the plugin "
+"details can be seen by pressing 'e'. From the detailed view plugin commands "
+"can also be run."
+msgstr ""
+"Petitboot 发现的插件将列示在此菜单中。\n"
+"按 Enter 键以安装所选插件。一旦安装，可以通过按 e 键查看插件详细信息。同时可"
+"以从详细信息视图运行插件命令。"
+
+msgid "Petitboot status log"
+msgstr "Petitboot 状态日志"
+
+msgid "Usage"
+msgstr "用法"
+
+#~ msgid "No network configured"
+#~ msgstr "No network configured"
+
+#~ msgid "Config file %s parsed"
+#~ msgstr "Config file %s parsed"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Don't autoboot"
+#~ msgstr "Don't autoboot"
+
+#~ msgid "Autoboot from any disk/network device"
+#~ msgstr "Autoboot from any disk/network device"
+
+#~ msgid "Only autoboot from a specific disk/network device"
+#~ msgstr "Only autoboot from a specific disk/network device"
+
+#~ msgid "Unknown UUID: %s"
+#~ msgstr "Unknown UUID: %s"

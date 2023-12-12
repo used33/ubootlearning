@@ -1,0 +1,883 @@
+# English translations for petitboot package.
+# This file is put in the public domain.
+# Jeremy Kerr <jk@ozlabs.org>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: petitboot 20140623-g89bd2ed2-dirty\n"
+"Report-Msgid-Bugs-To: https://lists.ozlabs.org/listinfo/petitboot\n"
+"POT-Creation-Date: 2018-11-29 10:59+1100\n"
+"PO-Revision-Date: 2014-06-24 13:56+0800\n"
+"Last-Translator: Jeremy Kerr <jk@ozlabs.org>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Running boot hooks"
+msgstr "Running boot hooks"
+
+#, c-format
+msgid "Loaded %s from %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't load %s from %s"
+msgstr "Couldn't load %s from %s"
+
+msgid "Performing kexec load"
+msgstr "Performing kexec load"
+
+msgid "Decryption failed"
+msgstr "Decryption failed"
+
+msgid "Signature verification failed"
+msgstr "Signature verification failed"
+
+msgid "Invalid signature configuration"
+msgstr "Invalid signature configuration"
+
+msgid "Performing kexec reboot"
+msgstr "Performing kexec reboot"
+
+msgid "kexec reboot failed"
+msgstr "kexec reboot failed"
+
+#, c-format
+msgid "Error loading %s"
+msgstr "Error loading %s"
+
+msgid "(unknown)"
+msgstr "(unknown)"
+
+#, c-format
+msgid "Booting %s"
+msgstr "Booting %s"
+
+msgid "Boot failed: no image specified"
+msgstr "Boot failed: no image specified"
+
+msgid "Boot failed: no command line signature file specified"
+msgstr "Boot failed: no command line signature file specified"
+
+msgid "kernel image"
+msgstr ""
+
+msgid "initrd"
+msgstr ""
+
+msgid "dtb"
+msgstr ""
+
+msgid "kernel image signature"
+msgstr ""
+
+msgid "initrd signature"
+msgstr ""
+
+msgid "dtb signature"
+msgstr ""
+
+msgid "kernel command line signature"
+msgstr ""
+
+msgid "Boot cancelled"
+msgstr "Boot cancelled"
+
+#, c-format
+msgid "%u downloads in progress..."
+msgstr ""
+
+#, c-format
+msgid "%u %s downloading: %.0f%% - %<PRIu64>%cB"
+msgstr ""
+
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "Booting in %d sec: [%s] %s"
+msgstr "Booting in %d sec: [%s] %s"
+
+msgid "device type"
+msgstr ""
+
+msgid "device UUID"
+msgstr ""
+
+msgid "unknown specifier"
+msgstr ""
+
+#, c-format
+msgid "Applying temporary autoboot override: %s"
+msgstr ""
+
+#. TRANSLATORS: this string will be passed the type of the
+#. device (eg "disk" or "network"), which will be translated
+#. accordingly.
+#.
+#, c-format
+msgid "Processing new %s device"
+msgstr ""
+
+#, c-format
+msgid "Processing DHCP lease response (ip: %s)"
+msgstr ""
+
+msgid "Default boot cancelled"
+msgstr "Default boot cancelled"
+
+msgid "Invalid config URL!"
+msgstr "Invalid config URL!"
+
+#, c-format
+msgid "Unable to route to host %s"
+msgstr "Unable to route to host %s"
+
+msgid "Failed to load URL!"
+msgstr ""
+
+#, c-format
+msgid "Parsed GRUB configuration from %s"
+msgstr ""
+
+#, c-format
+msgid "Parsed kboot configuration from %s"
+msgstr ""
+
+msgid "Configuring with DHCP"
+msgstr ""
+
+#, c-format
+msgid "Configuring with static address (ip: %s)"
+msgstr ""
+
+#, c-format
+msgid "Download complete: %s"
+msgstr ""
+
+#, c-format
+msgid "Failed to download %s"
+msgstr ""
+
+msgid "PXE autoconfiguration failed"
+msgstr ""
+
+#, c-format
+msgid "Parsed PXE config from %s"
+msgstr ""
+
+#, c-format
+msgid "Requesting config %s"
+msgstr ""
+
+#, c-format
+msgid "Probing from base %s"
+msgstr ""
+
+#, c-format
+msgid "Parsed yaboot configuration from %s"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Network"
+msgstr "Network"
+
+msgid "Disk"
+msgstr "Disk"
+
+msgid "Safe Mode"
+msgstr ""
+
+msgid "Optical"
+msgstr ""
+
+msgid "Setup Mode"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "USB"
+msgstr ""
+
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+msgid "Any"
+msgstr ""
+
+msgid "Retrieve Config"
+msgstr "Retrieve Config"
+
+msgid "Configuration URL:"
+msgstr "Configuration URL:"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Petitboot Config Retrieval"
+msgstr "Petitboot Config Retrieval"
+
+msgid "tab=next, shift+tab=previous, x=exit, h=help"
+msgstr "tab=next, shift+tab=previous, x=exit, h=help"
+
+msgid "Boot Option Editor"
+msgstr "Boot Option Editor"
+
+msgid "Specify paths/URLs manually"
+msgstr "Specify paths/URLs manually"
+
+msgid "Device:"
+msgstr "Device:"
+
+msgid "Kernel:"
+msgstr "Kernel:"
+
+msgid "Initrd:"
+msgstr "Initrd:"
+
+msgid "Device tree:"
+msgstr "Device tree:"
+
+msgid "Boot arguments:"
+msgstr "Boot arguments:"
+
+msgid "Argument signature file:"
+msgstr ""
+
+msgid "Petitboot Option Editor"
+msgstr "Petitboot Option Editor"
+
+msgid "System Configuration"
+msgstr "System Configuration"
+
+msgid "No IP / mask values are set"
+msgstr "No IP / mask values are set"
+
+msgid "Select a boot device to add"
+msgstr ""
+
+msgid "Waiting for configuration data..."
+msgstr "Waiting for configuration data..."
+
+msgid "Autoboot:"
+msgstr "Autoboot:"
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Add Device"
+msgstr "Add Device"
+
+msgid "Clear"
+msgstr ""
+
+msgid "Clear & Boot Any"
+msgstr ""
+
+msgid "Boot Order:"
+msgstr "Boot Order:"
+
+msgid "(None)"
+msgstr ""
+
+#, c-format
+msgid "disk: %s [uuid: %s]"
+msgstr "disk: %s [uuid: %s]"
+
+#, c-format
+msgid "net:  %s [mac: %s]"
+msgstr "net:  %s [mac: %s]"
+
+msgid "Any Device"
+msgstr "Any Device"
+
+#, c-format
+msgid "Any %s device"
+msgstr ""
+
+msgid "Timeout:"
+msgstr "Timeout:"
+
+msgid "seconds"
+msgstr "seconds"
+
+#, c-format
+msgid "%s IPMI boot option: %s"
+msgstr ""
+
+msgid "Persistent"
+msgstr ""
+
+msgid "Temporary"
+msgstr ""
+
+msgid "Clear option:"
+msgstr ""
+
+msgid "Clear IPMI override now"
+msgstr ""
+
+msgid "Network:"
+msgstr "Network:"
+
+msgid "DHCP on all active interfaces"
+msgstr "DHCP on all active interfaces"
+
+msgid "DHCP on a specific interface"
+msgstr "DHCP on a specific interface"
+
+msgid "Static IP configuration"
+msgstr "Static IP configuration"
+
+msgid "link up"
+msgstr "link up"
+
+msgid "link down"
+msgstr "link down"
+
+msgid "Network Override Active! 'OK' will overwrite interface config"
+msgstr ""
+
+msgid "IP/mask:"
+msgstr "IP/mask:"
+
+msgid "(eg. 192.168.0.10 / 24)"
+msgstr "(eg. 192.168.0.10 / 24)"
+
+msgid "Gateway:"
+msgstr "Gateway:"
+
+msgid "(eg. 192.168.0.1)"
+msgstr "(eg. 192.168.0.1)"
+
+msgid "URL:"
+msgstr ""
+
+msgid "(eg. tftp://)"
+msgstr ""
+
+msgid "DNS Server(s):"
+msgstr "DNS Server(s):"
+
+msgid "(eg. 192.168.0.2)"
+msgstr "(eg. 192.168.0.2)"
+
+msgid "(if not provided by DHCP server)"
+msgstr "(if not provided by DHCP server)"
+
+msgid "HTTP Proxy:"
+msgstr ""
+
+msgid "HTTPS Proxy:"
+msgstr ""
+
+msgid "Selecting 'OK' will exit safe mode"
+msgstr "Selecting 'OK' will exit safe mode"
+
+msgid "Disk R/W:"
+msgstr "Disk R/W:"
+
+msgid "Prevent all writes to disk"
+msgstr ""
+
+msgid "Allow bootloader scripts to modify disks"
+msgstr ""
+
+msgid "Boot console:"
+msgstr "Boot console:"
+
+#, c-format
+msgid "Manually set: '%s'"
+msgstr ""
+
+#, c-format
+msgid "Current interface: %s"
+msgstr ""
+
+msgid "Petitboot System Configuration"
+msgstr "Petitboot System Configuration"
+
+msgid "Returned from shell"
+msgstr ""
+
+#, c-format
+msgid "Running %s..."
+msgstr "Running %s..."
+
+#, c-format
+msgid "Failed: %s"
+msgstr "Failed: %s"
+
+#, c-format
+msgid "Booting %s..."
+msgstr "Booting %s..."
+
+#, c-format
+msgid "Failed: boot %s"
+msgstr "Failed: boot %s"
+
+#, c-format
+msgid "User item %u"
+msgstr "User item %u"
+
+#, c-format
+msgid "Plugins (%u)"
+msgstr "Plugins (%u)"
+
+#, c-format
+msgid "  %s [installed]"
+msgstr ""
+
+msgid "Plugins (0)"
+msgstr ""
+
+#, c-format
+msgid "SAFE MODE: select '%s' to continue"
+msgstr "SAFE MODE: select '%s' to continue"
+
+msgid "Rescan devices"
+msgstr "Rescan devices"
+
+msgid "Enter=accept, e=edit, n=new, x=exit, l=language, g=log, h=help"
+msgstr "Enter=accept, e=edit, n=new, x=exit, l=language, g=log, h=help"
+
+msgid "Welcome to Petitboot"
+msgstr "Welcome to Petitboot"
+
+msgid "System information"
+msgstr "System information"
+
+msgid "System configuration"
+msgstr "System configuration"
+
+msgid "System status log"
+msgstr ""
+
+msgid "Retrieve config from URL"
+msgstr "Retrieve config from URL"
+
+msgid "Reboot"
+msgstr ""
+
+msgid "Exit to shell"
+msgstr "Exit to shell"
+
+msgid "main menu"
+msgstr "main menu"
+
+msgid "Petitboot Plugins"
+msgstr "Petitboot Plugins"
+
+msgid "Enter=install, e=details, x=exit, h=help"
+msgstr "Enter=install, e=details, x=exit, h=help"
+
+msgid "Available Petitboot Plugins"
+msgstr ""
+
+msgid "Return to Main Menu"
+msgstr ""
+
+msgid "plugin menu"
+msgstr "plugin menu"
+
+#, c-format
+msgid "%s: alloc cui failed.\n"
+msgstr "%s: alloc cui failed.\n"
+
+#, c-format
+msgid "%s: error: discover_client_init failed.\n"
+msgstr "%s: error: discover_client_init failed.\n"
+
+#, c-format
+msgid "could not start pb-discover, the petitboot daemon.\n"
+msgstr "could not start pb-discover, the petitboot daemon.\n"
+
+#, c-format
+msgid "check that pb-discover, the petitboot daemon is running.\n"
+msgstr "check that pb-discover, the petitboot daemon is running.\n"
+
+msgid "Petitboot help"
+msgstr "Petitboot help"
+
+#, c-format
+msgid "Petitboot help: %s"
+msgstr "Petitboot help: %s"
+
+msgid "Language"
+msgstr "Language"
+
+#, c-format
+msgid "Unknown language '%s'"
+msgstr "Unknown language '%s'"
+
+msgid "Petitboot Language Selection"
+msgstr "Petitboot Language Selection"
+
+msgid "tab=next, shift+tab=previous, x=exit"
+msgstr "tab=next, shift+tab=previous, x=exit"
+
+#, c-format
+msgid "!Invalid option %d"
+msgstr "!Invalid option %d"
+
+msgid "Unknown Device"
+msgstr "Unknown Device"
+
+msgid "Waiting for system information..."
+msgstr "Waiting for system information..."
+
+msgid "System type:"
+msgstr "System type:"
+
+msgid "System id:"
+msgstr "System id:"
+
+msgid "Primary platform versions:"
+msgstr ""
+
+msgid "Alternate platform versions:"
+msgstr ""
+
+msgid "BMC current side:"
+msgstr ""
+
+msgid "BMC golden side:"
+msgstr ""
+
+msgid "Storage devices"
+msgstr "Storage devices"
+
+#, c-format
+msgid " UUID:       %s"
+msgstr " UUID:       %s"
+
+#, c-format
+msgid " mounted at: %s"
+msgstr " mounted at: %s"
+
+msgid "Management (BMC) interface"
+msgstr ""
+
+#, c-format
+msgid " MAC:  %s"
+msgstr " MAC:  %s"
+
+msgid "Network interfaces"
+msgstr ""
+
+#, c-format
+msgid " MAC:        %s"
+msgstr " MAC:        %s"
+
+#, c-format
+msgid " IP Address: %s"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+#, c-format
+msgid " IPv6 Address: %s"
+msgstr ""
+
+#. TRANSLATORS: these "up" / "down" strings refer to the
+#. * link status for a network connection.
+#, c-format
+msgid " link:       %s"
+msgstr " link:       %s"
+
+msgid "up"
+msgstr ""
+
+msgid "down"
+msgstr "down"
+
+msgid "Petitboot System Information"
+msgstr "Petitboot System Information"
+
+msgid "System Information"
+msgstr "System Information"
+
+msgid "x=exit, h=help"
+msgstr "x=exit, h=help"
+
+msgid "x=exit"
+msgstr "x=exit"
+
+msgid ""
+"From the main menu screen, select a boot option. The options displayed are "
+"available on the system and the network.\n"
+"\n"
+"To select a boot option, press Enter.\n"
+"\n"
+"To make changes to an existing option, type E (edit).\n"
+"\n"
+"To add a new boot option, type N (new).\n"
+"\n"
+"To display information about the system, including the MAC addresses of each "
+"network interface, type I (information).\n"
+"\n"
+"To make changes to the system configuration, type C (configure).\n"
+"\n"
+"To set the language for the petitboot interface, type L (language).\n"
+"\n"
+"To view the log of status messages from the discovery process, type G "
+"(log).\n"
+"\n"
+"To find new or updated boot options on the system, select the 'Rescan "
+"devices' option.\n"
+"\n"
+"To retreive new boot options from a remote configuration file, select the "
+"'Retrieve config from URL' option.\n"
+"\n"
+"To restrict petitboot to only autobooting from a specific device type, the "
+"following keys are available:\n"
+"\n"
+"  F10: Only autoboot from disk\n"
+"  F11: Only autoboot from USB devices\n"
+"  F12: Only autoboot from network\n"
+"\n"
+"Unlike other keys, these do not cancel automatic boot.\n"
+"\n"
+"To close the Petitboot interface, type X (exit).\n"
+msgstr ""
+"From the main menu screen, select a boot option. The options displayed are "
+"available on the system and the network.\n"
+"\n"
+"To select a boot option, press Enter.\n"
+"\n"
+"To make changes to an existing option, type E (edit).\n"
+"\n"
+"To add a new boot option, type N (new).\n"
+"\n"
+"To display information about the system, including the MAC addresses of each "
+"network interface, type I (information).\n"
+"\n"
+"To make changes to the system configuration, type C (configure).\n"
+"\n"
+"To set the language for the petitboot interface, type L (language).\n"
+"\n"
+"To view the log of status messages from the discovery process, type G "
+"(log).\n"
+"\n"
+"To find new or updated boot options on the system, select the 'Rescan "
+"devices' option.\n"
+"\n"
+"To retreive new boot options from a remote configuration file, select the "
+"'Retrieve config from URL' option.\n"
+"\n"
+"To close the Petitboot interface, type X (exit).\n"
+
+msgid ""
+"Supply a valid URL here to retrieve a remote pxe-boot config file and parse "
+"it.\n"
+"\n"
+"URLs are of the form 'scheme://host/path/to/pxeconffile', such as tftp://"
+"host/pxeconffile or http://host/pxeconffile"
+msgstr ""
+"Supply a valid URL here to retrieve a remote pxe-boot config file and parse "
+"it.\n"
+"\n"
+"URLs are of the form 'scheme://host/path/to/pxeconffile', such as tftp://"
+"host/pxeconffile or http://host/pxeconffile"
+
+msgid ""
+"This screen allows you to edit or create boot options.\n"
+"\n"
+"Device: This is a list of block devices available on the system. Select the "
+"device which contains your boot resources (kernel, initrd and device tree), "
+"or \"Specify paths/URLs manually\" to use full URLs to the boot resources.\n"
+"\n"
+"Kernel: enter the path to the kernel to boot. This field is mandatory. This "
+"should be a kernel image that the kexec utility can handle. Generally, this "
+"will be a 'vmlinux'-type image.\n"
+"Example: /boot/vmlinux\n"
+"\n"
+"Initrd: enter the path to the initial RAM disk image. This is optional.\n"
+"Example: /boot/initrd.img\n"
+"\n"
+"Device tree: enter the path to the device tree blob file (.dtb). This is "
+"optional; if not specified, and your platform currently provides a device "
+"tree, the current one will be used.\n"
+"Example: /boot/device-tree.dtb\n"
+"\n"
+"Boot arguments: enter the kernel command-line arguments. This is optional.\n"
+"Example: root=/dev/sda1 console=hvc0\n"
+"\n"
+msgstr ""
+"This screen allows you to edit or create boot options.\n"
+"\n"
+"Device: This is a list of block devices available on the system. Select the "
+"device which contains your boot resources (kernel, initrd and device tree), "
+"or \"Specify paths/URLs manually\" to use full URLs to the boot resources.\n"
+"\n"
+"Kernel: enter the path to the kernel to boot. This field is mandatory. This "
+"should be a kernel image that the kexec utility can handle. Generally, this "
+"will be a 'vmlinux'-type image.\n"
+"Example: /boot/vmlinux\n"
+"\n"
+"Initrd: enter the path to the initial RAM disk image. This is optional.\n"
+"Example: /boot/initrd.img\n"
+"\n"
+"Device tree: enter the path to the device tree blob file (.dtb). This is "
+"optional; if not specified, and your platform currently provides a device "
+"tree, the current one will be used.\n"
+"Example: /boot/device-tree.dtb\n"
+"\n"
+"Boot arguments: enter the kernel command-line arguments. This is optional.\n"
+"Example: root=/dev/sda1 console=hvc0\n"
+"\n"
+
+msgid ""
+"Autoboot: Specify which devices to autoboot from.\n"
+"\n"
+"By selecting the 'Add Device' button new devices can be added to the "
+"autoboot list, either by UUID, MAC address, or device type. Once added to "
+"the boot order, the priority of devices can be changed with the '-' (minus) "
+"and '+' (plus) keys. Devices can be individually removed from the boot order "
+"with the 'delete' or 'backspace' keys. Use this option if you have multiple "
+"operating system images installed.\n"
+"\n"
+"To autoboot from any device, select the 'Clear & Boot Any' button. In this "
+"case, any boot option that is marked as a default (by bootloader "
+"configuration) will be booted automatically after a timeout. Use this option "
+"if you want to quickly boot your system without changing any boot option "
+"settings. This is the typical configuration.\n"
+"\n"
+"To disable autoboot, select the 'Clear' button, which will clear the boot "
+"order. With autoboot disabled, user interaction will be required to continue "
+"past the petitboot menu. Use this option if you want the machine to wait for "
+"an explicit boot selection, or want to interact with petitboot before "
+"booting the system\n"
+"\n"
+"Timeout: Specify the length of time, in seconds, that the main menu will be "
+"displayed before the default boot option is started. This option is only "
+"displayed if autoboot is enabled.\n"
+"\n"
+"Network options:\n"
+"\n"
+"DHCP on all active interfaces: Automatically assigns IP addresses to each "
+"network interface. Use this option if you have a DHCP server on your "
+"network.\n"
+"\n"
+"DHCP on a specific interface: Automatically assigns IP addresses to the "
+"selected network interface. The other interfaces are not configured. Select "
+"this option if you have multiple DHCP servers on different interfaces, but "
+"only want to configure a single interface during boot.\n"
+"\n"
+"Static IP configuration: Allows you to specify an IPv4 address and network "
+"mask, gateway, and a DNS server or servers for a network interface. Select "
+"this option if you do not have a DHCP server, or want explicit control of "
+"network settings.\n"
+"\n"
+"HTTP(S) Proxy: Allows you to specify an optional HTTP or HTTPS proxy server "
+"if required, for example: \"http://proxy:3128\". Any HTTP(S) requests made "
+"by the pb-discover server will use these details.\n"
+"\n"
+"Disk R/W: Certain bootloader configurations may request write access to "
+"disks to save information or update parameters (eg. GRUB2). Use this option "
+"to control access to disks.\n"
+msgstr ""
+
+msgid "Petitboot Plugin"
+msgstr "Petitboot Plugins"
+
+#, c-format
+msgid "Finished: %s"
+msgstr ""
+
+#, c-format
+msgid "Installing plugin %s"
+msgstr ""
+
+msgid "Failed to send install request"
+msgstr ""
+
+msgid "ID:"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "Vendor:"
+msgstr ""
+
+msgid "Vendor ID:"
+msgstr ""
+
+msgid "Version:"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Commands:"
+msgstr ""
+
+msgid "Run selected command"
+msgstr ""
+
+msgid ""
+"This screen lists the details and available commands of an installed "
+"plugin.\n"
+"To run a plugin command choose it in the list and select the \"Run\" button. "
+"The Petitboot UI will temporarily exit to run the command, then return to "
+"this screen."
+msgstr ""
+
+msgid ""
+"Plugins discovered by Petitboot are listed in this menu.\n"
+"Press Enter to install the selected plugin. Once installed the plugin "
+"details can be seen by pressing 'e'. From the detailed view plugin commands "
+"can also be run."
+msgstr ""
+
+msgid "Petitboot status log"
+msgstr ""
+
+msgid "Usage"
+msgstr "Usage"
+
+#~ msgid "kexec load failed"
+#~ msgstr "kexec load failed"
+
+#~ msgid "No network configured"
+#~ msgstr "No network configured"
+
+#~ msgid "Config file %s parsed"
+#~ msgstr "Config file %s parsed"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Don't autoboot"
+#~ msgstr "Don't autoboot"
+
+#~ msgid "Autoboot from any disk/network device"
+#~ msgstr "Autoboot from any disk/network device"
+
+#~ msgid "Only autoboot from a specific disk/network device"
+#~ msgstr "Only autoboot from a specific disk/network device"
+
+#~ msgid "Unknown UUID: %s"
+#~ msgstr "Unknown UUID: %s"

@@ -1,0 +1,1095 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: petitboot v1.14\n"
+"Report-Msgid-Bugs-To: https://lists.ozlabs.org/listinfo/petitboot\n"
+"POT-Creation-Date: 2023-10-20 08:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: discover/boot.c:88
+msgid "decryption failed"
+msgstr ""
+
+#: discover/boot.c:91
+msgid "signature verification failed"
+msgstr ""
+
+#: discover/boot.c:94
+msgid "invalid signature configuration"
+msgstr ""
+
+#: discover/boot.c:97
+msgid "unknown verification failure"
+msgstr ""
+
+#: discover/boot.c:102
+#, c-format
+msgid "Boot verification failure: %s"
+msgstr ""
+
+#: discover/boot.c:196
+#, c-format
+msgid "kexec load failed: %s"
+msgstr ""
+
+#: discover/boot.c:329
+msgid "Running boot hooks"
+msgstr ""
+
+#: discover/boot.c:391
+#, c-format
+msgid "Loaded %s from %s"
+msgstr ""
+
+#: discover/boot.c:400
+#, c-format
+msgid "Couldn't load %s from %s"
+msgstr ""
+
+#: discover/boot.c:496
+msgid "Performing kexec load"
+msgstr ""
+
+#: discover/boot.c:506
+msgid "Performing kexec reboot"
+msgstr ""
+
+#: discover/boot.c:512
+msgid "kexec reboot failed"
+msgstr ""
+
+#: discover/boot.c:530
+#, c-format
+msgid "Error loading %s"
+msgstr ""
+
+#: discover/boot.c:577
+msgid "(unknown)"
+msgstr ""
+
+#: discover/boot.c:580
+#, c-format
+msgid "Booting %s"
+msgstr ""
+
+#: discover/boot.c:594
+msgid "Boot failed: no image specified"
+msgstr ""
+
+#: discover/boot.c:645
+msgid "Boot failed: no command line signature file specified"
+msgstr ""
+
+#: discover/boot.c:652
+msgid "kernel image"
+msgstr ""
+
+#: discover/boot.c:654
+msgid "initrd"
+msgstr ""
+
+#: discover/boot.c:656
+msgid "dtb"
+msgstr ""
+
+#: discover/boot.c:669
+msgid "kernel image signature"
+msgstr ""
+
+#: discover/boot.c:676
+msgid "initrd signature"
+msgstr ""
+
+#: discover/boot.c:683
+msgid "dtb signature"
+msgstr ""
+
+#: discover/boot.c:691
+msgid "kernel command line signature"
+msgstr ""
+
+#: discover/boot.c:714
+msgid "Boot cancelled"
+msgstr ""
+
+#: discover/device-handler.c:690
+#, c-format
+msgid "%u downloads in progress..."
+msgstr ""
+
+#: discover/device-handler.c:710
+#, c-format
+msgid "%u %s downloading: %.0f%% - %<PRIu64>%cB"
+msgstr ""
+
+#: discover/device-handler.c:712
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: discover/device-handler.c:775
+#, c-format
+msgid "Booting in %d sec: [%s] %s"
+msgstr ""
+
+#: discover/device-handler.c:990
+msgid "device type"
+msgstr ""
+
+#: discover/device-handler.c:993
+msgid "device UUID"
+msgstr ""
+
+#: discover/device-handler.c:996
+msgid "unknown specifier"
+msgstr ""
+
+#: discover/device-handler.c:1013
+#, c-format
+msgid "Applying temporary autoboot override: %s"
+msgstr ""
+
+#: discover/device-handler.c:1301
+#, c-format
+msgid "Failed to open encrypted device %s"
+msgstr ""
+
+#: discover/device-handler.c:1332
+#, c-format
+msgid "Encrypted device %s does not exist"
+msgstr ""
+
+#. TRANSLATORS: this string will be passed the type of the
+#. device (eg "disk" or "network"), which will be translated
+#. accordingly.
+#.
+#: discover/device-handler.c:1396
+#, c-format
+msgid "Processing new %s device"
+msgstr ""
+
+#: discover/device-handler.c:1550
+#, c-format
+msgid "Processing DHCP lease response (ip: %s)"
+msgstr ""
+
+#: discover/device-handler.c:1659
+msgid "Default boot cancelled"
+msgstr ""
+
+#: discover/device-handler.c:1818
+msgid "Invalid config URL!"
+msgstr ""
+
+#: discover/device-handler.c:1830
+#, c-format
+msgid "Unable to route to host %s"
+msgstr ""
+
+#: discover/device-handler.c:1848
+msgid "Failed to load URL!"
+msgstr ""
+
+#: discover/grub2/grub2.c:183
+#, c-format
+msgid "Parsed GRUB configuration from %s"
+msgstr ""
+
+#: discover/kboot-parser.c:210
+#, c-format
+msgid "Parsed kboot configuration from %s"
+msgstr ""
+
+#: discover/network.c:372
+msgid "Configuring with DHCP"
+msgstr ""
+
+#: discover/network.c:423
+#, c-format
+msgid "Configuring with static address (ip: %s)"
+msgstr ""
+
+#: discover/paths.c:133
+#, c-format
+msgid "Download complete: %s"
+msgstr ""
+
+#: discover/pxe-parser.c:386
+#, c-format
+msgid "Failed to download %s"
+msgstr ""
+
+#: discover/pxe-parser.c:398
+msgid "PXE autoconfiguration failed"
+msgstr ""
+
+#: discover/pxe-parser.c:422
+#, c-format
+msgid "Parsed PXE config from %s"
+msgstr ""
+
+#: discover/pxe-parser.c:514
+#, c-format
+msgid "Requesting config %s"
+msgstr ""
+
+#: discover/pxe-parser.c:540
+#, c-format
+msgid "Probing from base %s"
+msgstr ""
+
+#: discover/yaboot-parser.c:390
+#, c-format
+msgid "Parsed yaboot configuration from %s"
+msgstr ""
+
+#: lib/types/types.c:9
+msgid "None"
+msgstr ""
+
+#: lib/types/types.c:11 lib/types/types.c:35 ui/ncurses/nc-menu.c:310
+msgid "Network"
+msgstr ""
+
+#: lib/types/types.c:13 lib/types/types.c:29
+msgid "Disk"
+msgstr ""
+
+#: lib/types/types.c:15
+msgid "Safe Mode"
+msgstr ""
+
+#: lib/types/types.c:17
+msgid "Optical"
+msgstr ""
+
+#: lib/types/types.c:19
+msgid "Setup Mode"
+msgstr ""
+
+#: lib/types/types.c:21 lib/types/types.c:42
+msgid "Unknown"
+msgstr ""
+
+#: lib/types/types.c:31
+msgid "USB"
+msgstr ""
+
+#: lib/types/types.c:33
+msgid "CD/DVD"
+msgstr ""
+
+#: lib/types/types.c:37
+msgid "Any"
+msgstr ""
+
+#: lib/types/types.c:39
+msgid "Encrypted Device"
+msgstr ""
+
+#: ui/ncurses/nc-add-url.c:112
+msgid "Retrieve Config"
+msgstr ""
+
+#: ui/ncurses/nc-add-url.c:267
+msgid "Configuration URL:"
+msgstr ""
+
+#: ui/ncurses/nc-add-url.c:270 ui/ncurses/nc-boot-editor.c:538
+#: ui/ncurses/nc-config.c:1241 ui/ncurses/nc-lang.c:345
+#: ui/ncurses/nc-subset.c:194
+msgid "OK"
+msgstr ""
+
+#: ui/ncurses/nc-add-url.c:272 ui/ncurses/nc-boot-editor.c:540
+#: ui/ncurses/nc-config.c:1243
+msgid "Help"
+msgstr ""
+
+#: ui/ncurses/nc-add-url.c:274 ui/ncurses/nc-boot-editor.c:542
+#: ui/ncurses/nc-config.c:890 ui/ncurses/nc-config.c:1245
+#: ui/ncurses/nc-lang.c:286 ui/ncurses/nc-lang.c:347 ui/ncurses/nc-subset.c:196
+msgid "Cancel"
+msgstr ""
+
+#: ui/ncurses/nc-add-url.c:306
+msgid "Petitboot Config Retrieval"
+msgstr ""
+
+#: ui/ncurses/nc-add-url.c:309 ui/ncurses/nc-boot-editor.c:676
+#: ui/ncurses/nc-config.c:1400 ui/ncurses/nc-plugin.c:411
+msgid "tab=next, shift+tab=previous, x=exit, h=help"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:261
+msgid "Boot Option Editor"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:415
+msgid "Specify paths/URLs manually"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:497 ui/ncurses/nc-config.c:1088
+msgid "Device:"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:506
+msgid "Kernel:"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:511
+msgid "Initrd:"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:517 ui/ncurses/nc-boot-editor.c:658
+msgid "Device tree:"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:522 ui/ncurses/nc-boot-editor.c:659
+msgid "Boot arguments:"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:528 ui/ncurses/nc-boot-editor.c:661
+msgid "Argument signature file:"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor.c:673
+msgid "Petitboot Option Editor"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:186
+msgid "System Configuration"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:308
+msgid "No IP / mask values are set"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:805
+msgid "Select a boot device to add"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:888 ui/ncurses/nc-lang.c:284
+msgid "Waiting for configuration data..."
+msgstr ""
+
+#: ui/ncurses/nc-config.c:941
+msgid "Autoboot:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:945 ui/ncurses/nc-config.c:1233
+msgid "Disabled"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:947 ui/ncurses/nc-config.c:1235
+msgid "Enabled"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:953 ui/ncurses/nc-config.c:958
+msgid "Add Device"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:954 ui/ncurses/nc-config.c:962
+msgid "Clear"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:955 ui/ncurses/nc-config.c:966
+msgid "Clear & Boot Any"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:970
+msgid "Boot Order:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:975
+msgid "(None)"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:983
+#, c-format
+msgid "disk: %s [uuid: %s]"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:995
+#, c-format
+msgid "net:  %s [mac: %s]"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1004
+msgid "Any Device"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1006
+#, c-format
+msgid "Any %s device"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1033
+msgid "Timeout:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1036
+msgid "seconds"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1043
+#, c-format
+msgid "%s IPMI boot option: %s"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1045
+msgid "Persistent"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1045
+msgid "Temporary"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1050
+msgid "Clear option:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1052 ui/ncurses/nc-config.c:1053
+msgid "Clear IPMI override now"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1060
+msgid "IPMI boot order mailbox config present"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1062 ui/ncurses/nc-config.c:1063
+msgid "Clear IPMI boot order mailbox now"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1068
+msgid "Network:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1074
+msgid "DHCP on all active interfaces"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1078
+msgid "DHCP on a specific interface"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1082
+msgid "Static IP configuration"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1101
+msgid "link up"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1101
+msgid "link down"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1126
+msgid "Network Override Active! 'OK' will overwrite interface config"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1129
+msgid "IP/mask:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1134
+msgid "(eg. 192.168.0.10 / 24)"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1141
+msgid "Gateway:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1144
+msgid "(eg. 192.168.0.1)"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1149
+msgid "URL:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1153
+msgid "(eg. tftp://)"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1163
+msgid "DNS Server(s):"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1166
+msgid "(eg. 192.168.0.2)"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1171
+msgid "(if not provided by DHCP server)"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1174
+msgid "HTTP Proxy:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1178
+msgid "HTTPS Proxy:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1184 ui/ncurses/nc-lang.c:343
+msgid "Selecting 'OK' will exit safe mode"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1187
+msgid "Disk R/W:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1192
+msgid "Prevent all writes to disk"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1196
+msgid "Allow bootloader scripts to modify disks"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1200
+msgid "Boot console:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1213
+#, c-format
+msgid "Manually set: '%s'"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1218
+#, c-format
+msgid "Current interface: %s"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1224
+msgid "Update system password"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1229
+msgid "Pre-boot check:"
+msgstr ""
+
+#: ui/ncurses/nc-config.c:1397
+msgid "Petitboot System Configuration"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:221
+msgid "Returned from shell"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:252
+#, c-format
+msgid "Running %s..."
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:269
+#, c-format
+msgid "Failed: %s"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:300
+#, c-format
+msgid "Booting %s..."
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:306
+#, c-format
+msgid "Failed: boot %s"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:461
+#, c-format
+msgid "User item %u"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:542
+msgid "Failed to send install request"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:544
+#, c-format
+msgid "Installing plugin %s"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1062
+#, c-format
+msgid "Plugins (%u)"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1422
+#, c-format
+msgid "  %s [installed]"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1495 ui/ncurses/nc-cui.c:1713
+msgid "Plugins (0)"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1608
+#, c-format
+msgid "SAFE MODE: select '%s' to continue"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1609 ui/ncurses/nc-cui.c:1705
+msgid "Rescan devices"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1679
+msgid "Enter=accept, e=edit, n=new, x=exit, l=language, g=log, h=help"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1680
+msgid "Welcome to Petitboot"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1688
+msgid "System information"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1692
+msgid "System configuration"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1696
+msgid "System status log"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1709
+msgid "Retrieve config from URL"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1718
+msgid "Reboot"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1720
+msgid "Exit to shell"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1732
+msgid "main menu"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1756
+msgid "Petitboot Plugins"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1759
+msgid "Enter=install, e=details, x=exit, h=help"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1761
+msgid "Available Petitboot Plugins"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1768
+msgid "Return to Main Menu"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1780
+msgid "plugin menu"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1868
+#, c-format
+msgid "%s: alloc cui failed.\n"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1902 ui/ncurses/nc-cui.c:1916
+#, c-format
+msgid "%s: error: discover_client_init failed.\n"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1904
+#, c-format
+msgid "could not start pb-discover, the petitboot daemon.\n"
+msgstr ""
+
+#: ui/ncurses/nc-cui.c:1918
+#, c-format
+msgid "check that pb-discover, the petitboot daemon is running.\n"
+msgstr ""
+
+#: ui/ncurses/nc-helpscreen.c:61
+msgid "Petitboot help"
+msgstr ""
+
+#: ui/ncurses/nc-helpscreen.c:64
+#, c-format
+msgid "Petitboot help: %s"
+msgstr ""
+
+#: ui/ncurses/nc-lang.c:301
+msgid "Language"
+msgstr ""
+
+#: ui/ncurses/nc-lang.c:332
+#, c-format
+msgid "Unknown language '%s'"
+msgstr ""
+
+#: ui/ncurses/nc-lang.c:338
+msgid "Save changes?"
+msgstr ""
+
+#: ui/ncurses/nc-lang.c:440
+msgid "Petitboot Language Selection"
+msgstr ""
+
+#: ui/ncurses/nc-lang.c:443 ui/ncurses/nc-subset.c:291
+msgid "tab=next, shift+tab=previous, x=exit"
+msgstr ""
+
+#: ui/ncurses/nc-menu.c:102
+#, c-format
+msgid "!Invalid option %d"
+msgstr ""
+
+#: ui/ncurses/nc-menu.c:328
+msgid "Unknown Device"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:61
+msgid "Waiting for system information..."
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:65
+msgid "System type:"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:66
+msgid "System id:"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:70
+msgid "Primary platform versions:"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:78
+msgid "Alternate platform versions:"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:85
+msgid "Secure & trusted boot"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:86
+msgid "FW verification"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:87 ui/ncurses/nc-sysinfo.c:89
+msgid "enabled"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:87 ui/ncurses/nc-sysinfo.c:89
+#: ui/ncurses/nc-sysinfo.c:91
+msgid "disabled"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:88
+msgid "FW measurement"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:90
+msgid "OS verification"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:91
+msgid "enforcing"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:95
+msgid "BMC current side:"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:103
+msgid "BMC golden side:"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:111
+msgid "Storage devices"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:118
+#, c-format
+msgid " UUID:       %s"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:119
+#, c-format
+msgid " mounted at: %s"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:126
+msgid "Management (BMC) interface"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:127
+#, c-format
+msgid " MAC:  %s"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:132
+msgid "Network interfaces"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:141
+#, c-format
+msgid " MAC:        %s"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:142
+#, c-format
+msgid " IP Address: %s"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:142 ui/ncurses/nc-sysinfo.c:145
+msgid "none"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:144
+#, c-format
+msgid " IPv6 Address: %s"
+msgstr ""
+
+#. TRANSLATORS: these "up" / "down" strings refer to the
+#. * link status for a network connection.
+#: ui/ncurses/nc-sysinfo.c:148
+#, c-format
+msgid " link:       %s"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:148
+msgid "up"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:148
+msgid "down"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:174
+msgid "Petitboot System Information"
+msgstr ""
+
+#: ui/ncurses/nc-sysinfo.c:176
+msgid "System Information"
+msgstr ""
+
+#: ui/ncurses/nc-textscreen.c:189
+msgid "x=exit, h=help"
+msgstr ""
+
+#: ui/ncurses/nc-textscreen.c:224
+msgid "x=exit"
+msgstr ""
+
+#: ui/ncurses/nc-cui-help.c:5
+msgid ""
+"From the main menu screen, select a boot option. The options displayed are "
+"available on the system and the network.\n"
+"\n"
+"To select a boot option, press Enter.\n"
+"\n"
+"To make changes to an existing option, type E (edit).\n"
+"\n"
+"To add a new boot option, type N (new).\n"
+"\n"
+"To display information about the system, including the MAC addresses of each "
+"network interface, type I (information).\n"
+"\n"
+"To make changes to the system configuration, type C (configure).\n"
+"\n"
+"To set the language for the petitboot interface, type L (language).\n"
+"\n"
+"To view the log of status messages from the discovery process, type G "
+"(log).\n"
+"\n"
+"To find new or updated boot options on the system, select the 'Rescan "
+"devices' option.\n"
+"\n"
+"To retreive new boot options from a remote configuration file, select the "
+"'Retrieve config from URL' option.\n"
+"\n"
+"To restrict petitboot to only autobooting from a specific device type, the "
+"following keys are available:\n"
+"\n"
+"  F10: Only autoboot from disk\n"
+"  F11: Only autoboot from USB devices\n"
+"  F12: Only autoboot from network\n"
+"\n"
+"Unlike other keys, these do not cancel automatic boot.\n"
+"\n"
+"To close the Petitboot interface, type X (exit).\n"
+msgstr ""
+
+#: ui/ncurses/nc-add-url-help.c:3
+msgid ""
+"Supply a valid URL here to retrieve a remote pxe-boot config file and parse "
+"it.\n"
+"\n"
+"URLs are of the form 'scheme://host/path/to/pxeconffile', such as tftp://"
+"host/pxeconffile or http://host/pxeconffile"
+msgstr ""
+
+#: ui/ncurses/nc-boot-editor-help.c:3
+msgid ""
+"This screen allows you to edit or create boot options.\n"
+"\n"
+"Device: This is a list of block devices available on the system. Select the "
+"device which contains your boot resources (kernel, initrd and device tree), "
+"or \"Specify paths/URLs manually\" to use full URLs to the boot resources.\n"
+"\n"
+"Kernel: enter the path to the kernel to boot. This field is mandatory. This "
+"should be a kernel image that the kexec utility can handle. Generally, this "
+"will be a 'vmlinux'-type image.\n"
+"Example: /boot/vmlinux\n"
+"\n"
+"Initrd: enter the path to the initial RAM disk image. This is optional.\n"
+"Example: /boot/initrd.img\n"
+"\n"
+"Device tree: enter the path to the device tree blob file (.dtb). This is "
+"optional; if not specified, and your platform currently provides a device "
+"tree, the current one will be used.\n"
+"Example: /boot/device-tree.dtb\n"
+"\n"
+"Boot arguments: enter the kernel command-line arguments. This is optional.\n"
+"Example: root=/dev/sda1 console=hvc0\n"
+"\n"
+msgstr ""
+
+#: ui/ncurses/nc-config-help.c:3
+msgid ""
+"Autoboot: Specify which devices to autoboot from.\n"
+"\n"
+"By selecting the 'Add Device' button new devices can be added to the "
+"autoboot list, either by UUID, MAC address, or device type. Once added to "
+"the boot order, the priority of devices can be changed with the '-' (minus) "
+"and '+' (plus) keys. Devices can be individually removed from the boot order "
+"with the 'delete' or 'backspace' keys. Use this option if you have multiple "
+"operating system images installed.\n"
+"\n"
+"To autoboot from any device, select the 'Clear & Boot Any' button. In this "
+"case, any boot option that is marked as a default (by bootloader "
+"configuration) will be booted automatically after a timeout. Use this option "
+"if you want to quickly boot your system without changing any boot option "
+"settings. This is the typical configuration.\n"
+"\n"
+"To disable autoboot, select the 'Clear' button, which will clear the boot "
+"order. With autoboot disabled, user interaction will be required to continue "
+"past the petitboot menu. Use this option if you want the machine to wait for "
+"an explicit boot selection, or want to interact with petitboot before "
+"booting the system\n"
+"\n"
+"Timeout: Specify the length of time, in seconds, that the main menu will be "
+"displayed before the default boot option is started. This option is only "
+"displayed if autoboot is enabled.\n"
+"\n"
+"Network options:\n"
+"\n"
+"DHCP on all active interfaces: Automatically assigns IP addresses to each "
+"network interface. Use this option if you have a DHCP server on your "
+"network.\n"
+"\n"
+"DHCP on a specific interface: Automatically assigns IP addresses to the "
+"selected network interface. The other interfaces are not configured. Select "
+"this option if you have multiple DHCP servers on different interfaces, but "
+"only want to configure a single interface during boot.\n"
+"\n"
+"Static IP configuration: Allows you to specify an IPv4 address and network "
+"mask, gateway, and a DNS server or servers for a network interface. Select "
+"this option if you do not have a DHCP server, or want explicit control of "
+"network settings.\n"
+"\n"
+"HTTP(S) Proxy: Allows you to specify an optional HTTP or HTTPS proxy server "
+"if required, for example: \"http://proxy:3128\". Any HTTP(S) requests made "
+"by the pb-discover server will use these details.\n"
+"\n"
+"Disk R/W: Certain bootloader configurations may request write access to "
+"disks to save information or update parameters (eg. GRUB2). Use this option "
+"to control access to disks.\n"
+"\n"
+"Pre-boot check: Petitboot is able to check a payload for compatibility "
+"before booting it. If this check fails, petitboot will determine that the "
+"payload will not properly boot on this platform, and abort the boot. This "
+"configuration option allows skipping this check.\n"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:163 ui/ncurses/nc-plugin.c:408
+msgid "Petitboot Plugin"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:237
+#, c-format
+msgid "Finished: %s"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:270
+msgid "ID:"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:272
+msgid "Name:"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:274
+msgid "Vendor:"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:277
+msgid "Vendor ID:"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:280
+msgid "Version:"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:283
+msgid "Date"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:287
+msgid "Commands:"
+msgstr ""
+
+#: ui/ncurses/nc-plugin.c:296
+msgid "Run selected command"
+msgstr ""
+
+#: ui/ncurses/nc-plugin-help.c:3
+msgid ""
+"This screen lists the details and available commands of an installed "
+"plugin.\n"
+"To run a plugin command choose it in the list and select the \"Run\" button. "
+"The Petitboot UI will temporarily exit to run the command, then return to "
+"this screen."
+msgstr ""
+
+#: ui/ncurses/nc-plugin-menu-help.c:3
+msgid ""
+"Plugins discovered by Petitboot are listed in this menu.\n"
+"Press Enter to install the selected plugin. Once installed the plugin "
+"details can be seen by pressing 'e'. From the detailed view plugin commands "
+"can also be run."
+msgstr ""
+
+#: ui/ncurses/nc-statuslog.c:93
+msgid "Petitboot status log"
+msgstr ""
+
+#: ui/ncurses/generic-main.c:54
+msgid "Usage"
+msgstr ""
