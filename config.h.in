@@ -1,0 +1,290 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Enable crypt/password support */
+#undef CRYPT_SUPPORT
+
+/* Define to 1 if translation of program messages to the user's native
+   language is requested. */
+#undef ENABLE_NLS
+
+/* Enable hard lockdown */
+#undef HARD_LOCKDOWN
+
+/* Define to 1 if you have the MacOS X function CFLocaleCopyCurrent in the
+   CoreFoundation framework. */
+#undef HAVE_CFLOCALECOPYCURRENT
+
+/* Define to 1 if you have the MacOS X function CFPreferencesCopyAppValue in
+   the CoreFoundation framework. */
+#undef HAVE_CFPREFERENCESCOPYAPPVALUE
+
+/* Define to 1 if a SysV or X/Open compatible Curses library is present */
+#undef HAVE_CURSES
+
+/* Define to 1 if library supports color (enhanced functions) */
+#undef HAVE_CURSES_COLOR
+
+/* Define to 1 if library supports X/Open Enhanced functions */
+#undef HAVE_CURSES_ENHANCED
+
+/* Define to 1 if <curses.h> is present */
+#undef HAVE_CURSES_H
+
+/* Define to 1 if library supports certain obsolete features */
+#undef HAVE_CURSES_OBSOLETE
+
+/* Define if the GNU dcgettext() function is already present or preinstalled.
+   */
+#undef HAVE_DCGETTEXT
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <elfutils/libdw.h> header file. */
+#undef HAVE_ELFUTILS_LIBDW_H
+
+/* Define to 1 if the Curses Form library is present */
+#undef HAVE_FORM
+
+/* Define to 1 if <form.h> is present */
+#undef HAVE_FORM_H
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Define if you have the iconv() function and it works. */
+#undef HAVE_ICONV
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <libflash/libflash.h> header file. */
+#undef HAVE_LIBFLASH_LIBFLASH_H
+
+/* Define to 1 if you have the `twin' library (-ltwin). */
+#undef HAVE_LIBTWIN
+
+/* Define to 1 if you have the <libtwin/twin_fbdev.h> header file. */
+#undef HAVE_LIBTWIN_TWIN_FBDEV_H
+
+/* Define to 1 if you have the <libtwin/twin_x11.h> header file. */
+#undef HAVE_LIBTWIN_TWIN_X11_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if the Curses Menu library is present */
+#undef HAVE_MENU
+
+/* Define to 1 if <menu.h> is present */
+#undef HAVE_MENU_H
+
+/* Define to 1 if the Ncurses library is present */
+#undef HAVE_NCURSES
+
+/* Define to 1 if the NcursesW library is present */
+#undef HAVE_NCURSESW
+
+/* Define to 1 if <ncursesw/curses.h> is present */
+#undef HAVE_NCURSESW_CURSES_H
+
+/* Define to 1 if <ncursesw/form.h> is present */
+#undef HAVE_NCURSESW_FORM_H
+
+/* Define to 1 if <ncursesw.h> is present */
+#undef HAVE_NCURSESW_H
+
+/* Define to 1 if <ncursesw/menu.h> is present */
+#undef HAVE_NCURSESW_MENU_H
+
+/* Define to 1 if <ncurses/curses.h> is present */
+#undef HAVE_NCURSES_CURSES_H
+
+/* Define to 1 if <ncurses/form.h> is present */
+#undef HAVE_NCURSES_FORM_H
+
+/* Define to 1 if <ncurses.h> is present */
+#undef HAVE_NCURSES_H
+
+/* Define to 1 if <ncurses/menu.h> is present */
+#undef HAVE_NCURSES_MENU_H
+
+/* Define to 1 if you have the <stdarg.h> header file. */
+#undef HAVE_STDARG_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the <varargs.h> header file. */
+#undef HAVE_VARARGS_H
+
+/* Whether va_copy() is available */
+#undef HAVE_VA_COPY
+
+/* Whether __va_copy() is available */
+#undef HAVE___VA_COPY
+
+/* Path to "cp" on the host */
+#undef HOST_PROG_CP
+
+/* Path to "CRYPTSETUP" on the host */
+#undef HOST_PROG_CRYPTSETUP
+
+/* Path to "dmidecode" on the host */
+#undef HOST_PROG_DMIDECODE
+
+/* Path to "ip" on the host */
+#undef HOST_PROG_IP
+
+/* Path to "kexec" on the host */
+#undef HOST_PROG_KEXEC
+
+/* Path to "mount" on the host */
+#undef HOST_PROG_MOUNT
+
+/* Path to "pb-exec" on the host */
+#undef HOST_PROG_PB_EXEC
+
+/* Path to "pb-plugin" on the host */
+#undef HOST_PROG_PB_PLUGIN
+
+/* Path to "scsi-rescan" on the host */
+#undef HOST_PROG_SCSI_RESCAN
+
+/* Path to "sftp" on the host */
+#undef HOST_PROG_SFTP
+
+/* Path to "sh" on the host */
+#undef HOST_PROG_SH
+
+/* Path to "shutdown" on the host */
+#undef HOST_PROG_SHUTDOWN
+
+/* Path to "tftp" on the host */
+#undef HOST_PROG_TFTP
+
+/* Path to "udhcpc" on the host */
+#undef HOST_PROG_UDHCPC
+
+/* Path to "udhcpc6" on the host */
+#undef HOST_PROG_UDHCPC6
+
+/* Path to "umount" on the host */
+#undef HOST_PROG_UMOUNT
+
+/* Path to "vgchange" on the host */
+#undef HOST_PROG_VGCHANGE
+
+/* Path to "vgscan" on the host */
+#undef HOST_PROG_VGSCAN
+
+/* Path to "wget" on the host */
+#undef HOST_PROG_WGET
+
+/* gpgme home dir */
+#undef KEYRING_PATH
+
+/* Lockdown file location */
+#undef LOCKDOWN_FILE
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#undef LT_OBJDIR
+
+/* Enable MTD support */
+#undef MTD_SUPPORT
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define if you have signed boot enabled */
+#undef SIGNED_BOOT
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* tftp client type */
+#undef TFTP_TYPE
+
+/* Support old udev logging interface */
+#undef UDEV_LOGGING
+
+/* Enable extensions on AIX 3, Interix.  */
+#ifndef _ALL_SOURCE
+# undef _ALL_SOURCE
+#endif
+/* Enable GNU extensions on systems that have them.  */
+#ifndef _GNU_SOURCE
+# undef _GNU_SOURCE
+#endif
+/* Enable threading extensions on Solaris.  */
+#ifndef _POSIX_PTHREAD_SEMANTICS
+# undef _POSIX_PTHREAD_SEMANTICS
+#endif
+/* Enable extensions on HP NonStop.  */
+#ifndef _TANDEM_SOURCE
+# undef _TANDEM_SOURCE
+#endif
+/* Enable general extensions on Solaris.  */
+#ifndef __EXTENSIONS__
+# undef __EXTENSIONS__
+#endif
+
+
+/* openssl verify dgst */
+#undef VERIFY_DIGEST
+
+/* Version number of package */
+#undef VERSION
+
+/* Busybox environment enabled */
+#undef WITH_BUSYBOX
+
+/* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
+   `char[]'. */
+#undef YYTEXT_POINTER
+
+/* Define to 1 if on MINIX. */
+#undef _MINIX
+
+/* Define to 2 if the system does not provide POSIX.1 features except with
+   this defined. */
+#undef _POSIX_1_SOURCE
+
+/* Define to 1 if you need to in order for `stat' and other things to work. */
+#undef _POSIX_SOURCE

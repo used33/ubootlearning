@@ -1,0 +1,73 @@
+#!/bin/sh
+#
+# Petitboot udhcpc user script.  Should be run by udhcpc when
+# there is a change in the dhcp configuration.  For more info
+# see the udhcpc man page and the Linux kernel source file
+# Documentation/filesystems/nfsroot.txt.
+#
+
+PBOOT_USER_EVENT_SOCKET="/tmp/petitboot.ev"
+log="/var/log/petitboot/pb-udhcpc.log"
+
+pb_add () {
+	# Looks like udhcpc will give us different names, depending if the
+	# parameter was in the header, or specified by options
+	[ -z "$bootfile" ] && bootfile=${boot_file}
+
+	mac=$(cat /sys/class/net/$interface/address)
+	paramstr=''
+
+	# Collect relevant DHCP response parameters into $paramstr
+	for name in pxeconffile pxepathprefix reboottime bootfile mac ip \
+	        siaddr serverid tftp ipv6 bootfile_url bootfile_param
+	do
+		value=$(eval "echo \${$name}")
+		[ -n "$value" ] || continue;
+
+		paramstr="$paramstr $name=$value"
+	done
+
+	pb-event dhcp@${interface} $paramstr
+
+	# Check if an explicit boot file present. If there is, add it as
+	# an option directly.
+	if [ -z "${bootfile}" ]
+	then
+		return;
+	fi
+
+	paramstr=""
+
+	# Collect relevant parameters to add an option to the bootfile
+	# parameter
+	for name in rootpath siaddr bootfile mac
+        do
+                value=$(eval "echo \${$name}")
+                [ -n "$value" ] || continue;
+
+                paramstr="$paramstr $name=$value"
+        done
+
+	pb-event add@${interface} name="netboot $interface ($bootfile)" \
+		$paramstr
+}
+
+pb_remove () {
+	mac=$(cat /sys/class/net/$interface/address)
+	pb-event remove@${interface} mac=$mac
+}
+
+case "$1" in
+bound)
+	pb_add
+	;;
+deconfig)
+	pb_remove
+	;;
+*)
+	;;
+esac
+
+printf "--- $1 ---\n" >> ${log}
+set >> ${log}
+printf "---------------\n" >> ${log}

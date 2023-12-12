@@ -1,0 +1,143 @@
+#!/bin/sh
+#
+# Petitboot utility script for running a petitboot UI program
+# on a console tty.
+#
+
+ui=petitboot-nc
+shell=sh
+getty=/sbin/getty
+use_getty=0
+detach=0
+pb_config=pb-config
+
+usage() {
+	cat >&2 <<EOF
+pb-console [OPTIONS] -- [ARGS]
+OPTIONS
+     -d, --detach
+             Start in a detached (background) state.
+
+     -g, --getty[=PATH]
+             Start a getty (specified by PATH, otherwise $getty),
+             passing additional ARGS to the getty process
+
+     -s, --shell=PATH
+             Use PATH as the exit-to-shell shell
+
+     -u, --ui=PATH
+             Use PATH as the petitboot UI
+
+     -h, --help
+             Print a help message.
+EOF
+	exit 1
+}
+
+opts=$(getopt --options 'hdg::s:u:' \
+              --long 'help,detach,getty::,shell:,ui:' \
+              -- "$@")
+[ $? = 0 ] || exit 1
+
+eval set -- "$opts"
+
+while :
+do
+	case "$1" in
+	-d | --detach)
+		detach=1
+		shift
+		;;
+	-g | --getty)
+		use_getty=1
+		getty_arg="$2"
+		shift 2
+		;;
+	-s | --shell)
+		shell="$2"
+		shift 2
+		;;
+	-u | --ui)
+		ui="$2"
+		shift 2
+		;;
+	--help | -h)
+		usage
+		;;
+	--)
+		shift
+		break
+		;;
+	*)
+		echo "getopt error"
+		exit 1
+	esac
+done
+
+if [ "$use_getty" = 1 ]
+then
+	if [ -n "$getty_arg" ]
+	then
+		getty="$getty_arg"
+	fi
+
+	login_arg="-l$0"
+	for ttyarg in "$@"
+	do
+		# If the getty args include autologin don't override with -l
+		# and leave calling petitboot-nc to the user's init
+		if [ "$ttyarg" == "-a" ]
+		then
+			login_arg=""
+		fi
+	done
+
+	if [ "$detach" = 1 ]
+	then
+		setsid -c $getty $login_arg "$@" &
+		exit
+	else
+		exec $getty $login_arg "$@"
+	fi
+fi
+
+for f in /etc/environment /etc/locale
+do
+	if [ -e "$f" ]
+	then
+		export $(cat "$f")
+	fi
+done
+
+# we force local terminals to use the linux termcap definition
+case "$(tty)" in
+/dev/tty[0-9]*)
+	export TERM=linux
+	;;
+esac
+
+# we may have been run from udev - ensure we have a sensible PATH
+if [ -z "$PATH" ]
+then
+	export PATH=/usr/bin:/usr/sbin:/bin:/sbin
+fi
+
+verbose_opt=
+if $pb_config debug | grep -q enabled
+then
+	verbose_opt=--verbose
+fi
+
+# kernel messages may write over the ncurses ui - change log level to only
+# show particularly important messages
+dmesg -n 1
+
+trap '' SIGINT
+trap 'reset; echo "SIGTERM received, booting..."; sleep 2' SIGTERM
+
+while :
+do
+	$ui $verbose_opt
+	reset
+	$shell -ml
+done

@@ -1,0 +1,27 @@
+#!/bin/sh
+
+PREFIX=""
+
+# Check if root required
+if [[ "$(id -u)" != "0" ]]; then
+	read -n 1 -r -p "Running as user $(id -un), run as root? (y/N)" key
+	if [ "$key" == "y" ]; then
+		PREFIX="sudo"
+	fi
+	printf "\n"
+fi
+
+# Run a program specified by Petitboot.
+$PREFIX $@
+echo "$0 ran '$@'"
+
+# Wait for the user to exit back to Petitboot.
+read -n 1 -r -p "Press ENTER to return to Petitboot or any other key to drop to a shell" key
+
+if [ "$key" == "" ]; then
+	echo "Returning to Petitboot.."
+	exit 0
+fi
+
+printf "\nLaunching shell. Type 'exit' to return\n"
+/bin/sh
